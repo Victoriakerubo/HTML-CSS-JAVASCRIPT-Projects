@@ -35,6 +35,13 @@ function updateLocalStorage (){
     localStorage.setItem ("score", JSON.stringify(score))
 }
 
+// Set a timer for 1 minute (60,000 milliseconds)
+setTimeout(() => {
+    // Reset the score to 0 when the timer expires
+    score = 0;
+    updateLocalStorage();
+    scoreEl.innerText = `Score: ${score}`;
+}, 60000);
 
 
 

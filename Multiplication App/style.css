@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    color: navy;
+    background-image: url(https://images.unsplash.com/photo-1614680376739-414d95ff43df?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.form{
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input{
+    display: block;
+    width: 93%;
+    box-sizing: border box;
+    font-size: 25px;
+    text-align:center;
+    padding: 10px;
+    border: solid 2px navy;
+    color: navy;
+}
+
+.input::placeholder{
+    color: lightgray;
+    font-family: cursive;
+
+}
+.btn{
+    background: navy;
+    color: aqua;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3) ;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.score{
+    color: navy;
+    text-align: right;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
